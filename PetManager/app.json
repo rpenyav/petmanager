@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "PetManager",
-    "slug": "PetManager",
+    "slug": "petmanager",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -31,6 +31,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "51d6465a-c8a5-4a98-91df-83e24ec90b8c"
+      }
+    },
+    "owner": "kadetito"
   }
 }
